@@ -196,6 +196,7 @@ div {
 }
 
 .container .icon {
+    cursor: pointer;
     width: 2.3rem;
     margin-top: 15px;
     fill: rgba(37, 52, 74, 1);
@@ -205,4 +206,9 @@ div {
     stroke-linecap: butt;
     stroke-miterlimit: 4;
     shape-rendering: auto;
+    transition: transform 0.4s ease;
+}
+
+.container .icon:hover {
+    transform: scale(1.25);
 }
