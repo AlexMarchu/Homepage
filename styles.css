@@ -166,6 +166,7 @@ div {
     margin-bottom: 10px;
     word-wrap: break-word;
     max-width: 80%;
+    user-select: none;
 }
 
 #content {
@@ -174,6 +175,7 @@ div {
     font-weight: 300;
     color: #939190;
     margin: auto;
+    user-select: none;
 }
 
 .container ul {
